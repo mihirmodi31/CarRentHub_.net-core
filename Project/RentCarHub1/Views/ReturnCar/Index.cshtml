@@ -1,0 +1,95 @@
+﻿<div class="row">
+    <div class="col-sm-4">
+
+        @using (Html.BeginForm("Save", "ReturnCar", FormMethod.Post, new { id = "popupForm" }))
+        {
+            <div>
+                <h1>Car Rentail</h1>
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Car No</label>
+                <input type="text" id="carno" name="carno" class="form-control" placeholder="carid" required />
+
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Customer id</label>
+                <input type="text" id="custid" name="custid" class="form-control" placeholder="CustId" required />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Date</label>
+                <input type="text" id="date" name="date" class="form-control" placeholder="date" required />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Days Elapsed</label>
+                <input type="text" id="elsp" name="elsp" class="form-control" placeholder="Days Delayed" required />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label">Fine</label>
+                <input type="text" id="fine" name="fine" class="form-control" placeholder="fine" required />
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-success" />
+            </div>
+        }
+    </div>
+
+</div>
+
+@section scripts
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+    <script>
+        getCarid();
+
+        function daysdifference(firstDate, secondDate) {
+            var startDay = new Date(firstDate);
+            var endDay = new Date(secondDate);
+
+            var millisBetween = startDay.getTime() - endDay.getTime();
+
+            var days = millisBetween / (1000 * 3600 * 24);
+
+            return Math.round(days);
+        }
+
+
+        function getCarid() {
+            $("#carno").keyup(function (e) {
+                $.ajax({
+                    type: 'POST',
+                    url: 'ReturnCar/Getid?carno=' + $("#carno").val(),
+                    dataType: 'JSON',
+                    success: function (data) {
+                        console.log(data);
+                        $('#custid').val(data[0].custid);
+                        $('#date').val(data[0].enddate);
+
+                        var days = daysdifference(new Date(), data[0].enddate);
+
+                        console.log(days);
+                        $('#elsp').val(days);
+
+                        if (days > 0) {
+                            var fine = days * 100;
+                            console.log(fine);
+                            $('#fine').val(fine);
+                        }
+                        else {
+                            $('#fine').val("0");
+                        }
+                    }
+
+                });
+            });
+        }
+    </script>
+}
