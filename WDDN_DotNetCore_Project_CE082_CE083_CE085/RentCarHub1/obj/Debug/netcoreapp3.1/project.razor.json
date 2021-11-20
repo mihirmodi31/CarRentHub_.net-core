@@ -1,5 +1,5 @@
 {
-  "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\RentCarHub1.csproj",
+  "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\RentCarHub1.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,100 +14402,80 @@
   "RootNamespace": "RentCarHub1",
   "Documents": [
     {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Rentail\\Index.cshtml",
-      "TargetPath": "Views\\Rentail\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\customer\\Edit.cshtml",
-      "TargetPath": "Views\\customer\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Car\\Delete.cshtml",
-      "TargetPath": "Views\\Car\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Car\\Create.cshtml",
-      "TargetPath": "Views\\Car\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\customer\\Details.cshtml",
-      "TargetPath": "Views\\customer\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\customer\\Create.cshtml",
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\customer\\Create.cshtml",
       "TargetPath": "Views\\customer\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Car\\Index.cshtml",
-      "TargetPath": "Views\\Car\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Car\\Details.cshtml",
-      "TargetPath": "Views\\Car\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\Car\\Edit.cshtml",
-      "TargetPath": "Views\\Car\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\customer\\Index.cshtml",
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\customer\\Index.cshtml",
       "TargetPath": "Views\\customer\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\ReturnCar\\Index.cshtml",
-      "TargetPath": "Views\\ReturnCar\\Index.cshtml",
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Car\\Delete.cshtml",
+      "TargetPath": "Views\\Car\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\Project\\RentCarHub1\\Views\\customer\\Delete.cshtml",
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\customer\\Delete.cshtml",
       "TargetPath": "Views\\customer\\Delete.cshtml",
       "FileKind": "mvc"
-    }
-  ],
-  "SerializationFormat": "0.2"
-}
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\customer\\Edit.cshtml",
+      "TargetPath": "Views\\customer\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Car\\Details.cshtml",
+      "TargetPath": "Views\\Car\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Rentail\\Index.cshtml",
+      "TargetPath": "Views\\Rentail\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Car\\Edit.cshtml",
+      "TargetPath": "Views\\Car\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Car\\Create.cshtml",
+      "TargetPath": "Views\\Car\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.
