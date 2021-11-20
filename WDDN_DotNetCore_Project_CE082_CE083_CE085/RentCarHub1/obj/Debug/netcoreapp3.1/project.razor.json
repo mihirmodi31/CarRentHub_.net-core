@@ -14478,4 +14478,24 @@
     },
     {
       "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\Car\\Index.cshtml",
+      "TargetPath": "Views\\Car\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\customer\\Details.cshtml",
+      "TargetPath": "Views\\customer\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\DDU\\sem-5\\WDDN\\DotNetCore\\RentCarHub-in-.net-core\\WDDN_DotNetCore_Project_CE082_CE083_CE085\\RentCarHub1\\Views\\ReturnCar\\Index.cshtml",
+      "TargetPath": "Views\\ReturnCar\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
